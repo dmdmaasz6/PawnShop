@@ -1,0 +1,188 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cash&amp;BuyBack
+</name>
+</assembly>
+<members>
+<member name="T:CashBuyBack.CBB_DataSet.CashTransactionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.CustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.NormalStockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawningTransactionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawnStockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.StockSaleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.CashTransactionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.CustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.NormalStockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawningTransactionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawnStockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.StockSaleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.CashTransactionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.CustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.LayBuyHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.NormalStockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawningTransactionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.PawnStockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet.StockSaleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.CashTransactionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.CustomersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.LayBuyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.LayBuyHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.NormalStockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.PawningTransactionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.PawnStockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.StockSaleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CashBuyBack.CBB_DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CashBuyBack.CBB_DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CashBuyBack.CBB_DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.UpdateAll(CashBuyBack.CBB_DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CashBuyBack.CBB_DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CashBuyBack.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CashBuyBack.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CashBuyBack.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

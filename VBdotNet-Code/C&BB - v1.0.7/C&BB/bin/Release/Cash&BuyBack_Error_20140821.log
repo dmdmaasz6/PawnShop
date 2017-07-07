@@ -1,0 +1,10 @@
+08/21/2014 19:52:26 : frmReports - cmdCustomRpt_Click
+Error Message: The requested member of the collection does not exist.
+   at Microsoft.Office.Interop.Word.Table.Cell(Int32 Row, Int32 Column)
+   at CashBuyBack.frmReports.cmdCustomRpt_Click(Object sender, EventArgs e) in D:\Workspace_VSE\C&BB\C&BB\frmReports.vb:line 547
+================================================================================================================================================
+08/21/2014 19:59:42 : frmReports - cmdCustomRpt_Click
+Error Message: The requested member of the collection does not exist.
+   at Microsoft.Office.Interop.Word.Table.Cell(Int32 Row, Int32 Column)
+   at CashBuyBack.frmReports.cmdCustomRpt_Click(Object sender, EventArgs e) in D:\Workspace_VSE\C&BB\C&BB\frmReports.vb:line 549
+================================================================================================================================================

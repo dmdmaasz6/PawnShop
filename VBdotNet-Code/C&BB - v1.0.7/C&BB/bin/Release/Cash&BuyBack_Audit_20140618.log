@@ -1,0 +1,22 @@
+06/18/2014 20:02:44 : New Pawn Stock
+cmdNewPawningTransactions,46945, 230/6/2014, 20:02:00, 1125, 30, 06/18/2014 20:02:39, 40, 06/18/2014 20:02:39, 1, 06/25/2014 20:02:39
+06/18/2014 20:02:44 : New Pawn Stock
+cmdInsertCashTransaction1,C&BB,Pawning Out,06/18/2014 20:02:39, 46945, 0, 0, 0, 0,'','-30.00',0,0,0)
+06/18/2014 20:02:44 : New Pawn Stock
+cmdNewPawnStock,46945, sdfgdsfg, , 1, 1
+06/18/2014 20:03:52 : New Pawn Stock
+cmdNewPawningTransactions,46945, 230/6/2014, 20:03:00, 1245, 440, 06/18/2014 20:03:46, 550, 06/18/2014 20:03:46, 1, 06/25/2014 20:03:46
+06/18/2014 20:03:52 : New Pawn Stock
+cmdInsertCashTransaction1,C&BB,Pawning Out,06/18/2014 20:03:46, 46945, 0, 0, 0, 0,'','-440.00',0,0,0)
+06/18/2014 20:03:52 : New Pawn Stock
+cmdNewPawnStock,46945, cvbxcvbxcv, , 1, 1
+06/18/2014 20:03:52 : New Pawn Stock
+cmdNewPawnStock,46945, xcvxcvxc, , 1, 1
+06/18/2014 20:04:40 : New Pawn Stock
+cmdNewPawningTransactions,46945, 230/6/2014, 20:04:00, 1455, 440, 06/18/2014 20:04:33, 660, 06/18/2014 20:04:33, 1, 06/25/2014 20:04:33
+06/18/2014 20:04:40 : New Pawn Stock
+cmdInsertCashTransaction1,C&BB,Pawning Out,06/18/2014 20:04:33, 46945, 0, 0, 0, 0,'','-440.00',0,0,0)
+06/18/2014 20:04:40 : New Pawn Stock
+cmdNewPawnStock,46945, sdfdsf, , 1, 1
+06/18/2014 20:04:40 : New Pawn Stock
+cmdNewPawnStock,46945, fsdfsdf, , 1, 1

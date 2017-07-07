@@ -1,0 +1,18 @@
+drReportRealizableIncome
+cmdReportRealizableIncome_Grouping_Header
+cmdReportRealizableIncome_Detail
+
+D:\werk\Cash&BuyBack\Source_v2_1\C&bb.mdb
+
+
+SELECT Status, PSID, Description, SerialNr, Quantity as QuantityTotal, QuantityLayBuy as [Quantity on LayBuy], QuantitySold, (Quantity - QuantityLayBuy - QuantitySold) as [Quantity Available], Price as UnitPrice, ((Quantity - QuantityLayBuy - QuantitySold)*Price) as [Realizable Profit] FROM PawnStock where (((status=1) or (status=3)) and ((Quantity - QuantityLayBuy - QuantitySold)>0)) ORDER BY Status
+
+SELECT Status, PSID, Description, SerialNr, Quantity as QuantityTotal, QuantityLayBuy as [Quantity on LayBuy], QuantitySold, (Quantity - QuantityLayBuy - QuantitySold) as [Quantity Available], Price as UnitPrice, ((Quantity - QuantityLayBuy - QuantitySold)*Price) as [Realizable Profit] FROM PawnStock where ((status=1) and ((Quantity - QuantityLayBuy - QuantitySold)>0)) ORDER BY PSID
+
+SELECT a.Status, a.PSID, a.Description, a.SerialNr, a.Quantity as QuantityTotal, a.QuantityLayBuy as [Quantity on LayBuy], a.QuantitySold, (a.Quantity - a.QuantityLayBuy - a.QuantitySold) as [Quantity Available], b.PurchaseAmount as UnitPrice, b.BuyBackAmount as [Realizable Profit] FROM PawnStock a INNER JOIN PawningTransactions b on b.PnCID = a.PnCID where a.status=1 ORDER BY PSID
+
+INSERT INTO PawningTransactions (PnCID, MonthNr, PTTime, CustID, PurchaseAmount, DateHandedIn, BuyBackAmount, ExpiryDate, Status, ExpiryDateAfter7WorkDays) VALUES (?,?,?,?,?,?,?,?,1,?)
+
+
+Select Status, PnCID, 
+from PawningTransactions
